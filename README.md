@@ -3,8 +3,9 @@
 This project uses unsupervised learning to cluster e-commerce customers based on their shopping behavior. A Streamlit dashboard is built to visualize clusters and provide insights for marketing.
 
 ## folder structure
-Ecommerce_Customer_Segmentation/
-│
+Ecommerce_Customer_Segmentation
+
+
 ├── app.py                        
 ├── main.py                     
 ├── requirements.txt           
