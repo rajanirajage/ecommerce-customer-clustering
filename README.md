@@ -5,24 +5,17 @@ This project uses unsupervised learning to cluster e-commerce customers based on
 ## folder structure
 Ecommerce_Customer_Segmentation/
 │
-├── app.py                       # Streamlit app to display clusters & insights
-├── main.py                      # Main Python script for data processing & clustering
-├── requirements.txt             # All required Python packages
+├── app.py                        
+├── main.py                     
+├── requirements.txt           
 ├── clustering.py                    
 ├── insights.py                  
-│
-├── data/                        # Raw and processed data files
-│   ├── Ecommerce_data.db        # Original SQLite database
-│   └── ecommerce_cleaned.csv    # Cleaned version if extracted from DB
-│
-├── outputs/                     # All output files
-│   └── clustered_customers.csv  # Final output with cluster labels
-│
+├── data/                       
+│   ├── Ecommerce_data.db      
+│   └── ecommerce_cleaned.csv 
+├── outputs/                   
+│   └── clustered_customers.csv  
 ├──processing.py                      
-│   
-│
-│
-└── venv/                        # Your Python virtual environment (do NOT zip this)
 
 
 
